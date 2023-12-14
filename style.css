@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Manrope-800;
+  src: url(./Manrope-ExtraBold.ttf);
+}
+.main-box {
+  background: rgba(32, 39, 51, 1);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Manrope-800;
+}
+
+.advice-box {
+  margin: 0 16px;
+  box-shadow: 30px 50px 80px 0 #313a48;
+  opacity: 0.1002;
+  text-align: center;
+  background: rgba(49, 58, 72, 1);
+  color: rgba(206, 227, 233, 1);
+  padding: 40px 24px 71px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.advice-box h4 {
+  color: rgba(83, 255, 170, 1);
+  letter-spacing: 3.46px;
+  font-size: 11px;
+}
+
+.advice-box h1 {
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: -0.2571428716182709px;
+  padding: 24px 0;
+}
+hr {
+  width: 50%;
+}
+
+.circle {
+  text-align: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #53ffaa;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 80%);
+}
+
+.circle:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 800px) {
+  .advice-box h4 {
+    font-size: 14px;
+  }
+  .advice-box {
+    padding: 48px 48px 71px;
+  }
+  .advice-box h1 {
+    font-size: 28px;
+  }
+}
